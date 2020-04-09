@@ -13,7 +13,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import HunterMod.characters.Enum;
 
-public class Shot extends HunterMod.cards.BaseHunterCard {
+public class Shot extends CustomCard {
     public static final String ID = "HunterMod:Shot";
     private static CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     // Get object containing the strings that are displayed in the game.

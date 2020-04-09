@@ -11,7 +11,7 @@ import HunterMod.characters.HunterCharacter;
 import HunterMod.cards.BaseHunterCard
 
 
-public abstract class AbstractMarkHunterCard extends BaseHunterCard{
+public abstract class AbstractMarkHunterCard extends CustomCard{
 
     public AbstractMarkHunterCard(String id,
                                   String name,

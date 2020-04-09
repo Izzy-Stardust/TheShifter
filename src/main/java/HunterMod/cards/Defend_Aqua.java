@@ -13,12 +13,12 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import HunterMod.characters.Enum;
 
-public class Defend_Aqua extends HunterMod.cards.BaseHunterCard {
+public class Defend_Aqua extends CustomCard {
     public static final String ID = "HunterMod:Defend_Aqua";
     private static CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String NAME = "Defend";
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    public static final String IMG_PATH = "Cards\\defend_Aqua.png";
+    public static final String IMG_PATH = "Cards/defend_Aqua.png";
     private static final int COST = 1;
     private static final int BLOCK = 5;
     private static final int UPGRADE_PLUS_BLOCK = 3;
@@ -29,7 +29,7 @@ public class Defend_Aqua extends HunterMod.cards.BaseHunterCard {
                 CardRarity.BASIC, AbstractCard.CardTarget.SELF);
         this.baseBlock = BLOCK;
 
-        this.setBackgroundTexture("Cards\\Defend.png", "Cards\\Defend_large.png");
+        this.setBackgroundTexture("resources/CardUI/backgrounds/bg_skill_aqua_512.png", "resources/CardUI/backgrounds/bg_skill_aqua_512.png");
 
     }
 

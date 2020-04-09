@@ -71,15 +71,15 @@ OnPowersModifiedSubscriber, PreMonsterTurnSubscriber {
         BaseMod.addColor(
                Enum.Hunter,
                 HunterAqua,
-                "src\\main\\resources\\CardUI\\bg_attack_aqua_512",
-                "src\\main\\resources\\CardUI\\bg_skill_aqua_512",
-                "src\\main\\resources\\CardUI\\bg_power_aqua_512",
-                "src\\main\\resources\\CardUI\\card_aqua_orb_512",
-                "src\\main\\resources\\CardUI\\bg_attack_aqua",
-                "src\\main\\resources\\CardUI\\bg_skill_aqua",
-                "src\\main\\resources\\CardUI\\bg_power_aqua",
-                "src\\main\\resources\\CardUI\\card_aqua_orb",
-                "src\\main\\resources\\CardUI\\text_aqua_orb")
+                "src/main/resources/CardUI/bg_attack_aqua_512",
+                "src/main/resources/CardUI/bg_skill_aqua_512",
+                "src/main/resources/CardUI/bg_power_aqua_512",
+                "src/main/resources/CardUI/card_aqua_orb_512",
+                "src/main/resources/CardUI/bg_attack_aqua",
+                "src/main/resources/CardUI/bg_skill_aqua",
+                "src/main/resources/CardUI/bg_power_aqua",
+                "src/main/resources/CardUI/card_aqua_orb",
+                "src/main/resources/CardUI/text_aqua_orb")
 
 
 
