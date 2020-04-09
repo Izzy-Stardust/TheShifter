@@ -8,7 +8,7 @@ import basemod.abstracts.CustomCard;
 
 import HunterMod.characters.Enum;
 import HunterMod.characters.HunterCharacter;
-import HunterMod.cards.BaseHunterCard
+import HunterMod.cards.BaseHunterCard;
 
 
 public abstract class AbstractMarkHunterCard extends CustomCard{

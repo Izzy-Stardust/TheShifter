@@ -19,7 +19,7 @@ public class HunterCharacter extends CustomPlayer {
     public static final String HUNTER_SHOULDER_1 = "src\\main\\resources\\CharacterImage\\shoulder.png"; // another campfire pose
     public static final String HUNTER_CORPSE = "src\\main\\resources\\CharacterImage\\corpse.png"; // dead corpse
     public static final String HUNTER_SKELETON_ATLAS = "src\\main\\resources\\CharacterImage\\idle\\skeleton.atlas"; // spine animation atlas
-    public static final String HUNTER_SKELETON_JSON = "src\\main\\resources\\CharacterImage\\idle\\skeleton.atlas"skeleton.json"; // spine animation json
+    public static final String HUNTER_SKELETON_JSON = "src\\main\\resources\\CharacterImage\\idle\\skeleton.json"; // spine animation json
 
     public HunterCharacter (String name) {
         super(name, HunterEnum.HUNTER);
@@ -52,6 +52,7 @@ public class HunterCharacter extends CustomPlayer {
         retVal.add("Recklessness");
         retVal.add("Hunt");
         return retVal;
+    }
 
     public static ArrayList<String> getStartingRelics() { // starting relics - also simple
         ArrayList<String> retVal = new ArrayList<>();
